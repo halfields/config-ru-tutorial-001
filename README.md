@@ -15,7 +15,6 @@ Remember that a Rack application isn't a class, but a Ruby object. An instance o
 Every time you are told to run `rackup` on your commandline, make sure you have no other servers running. Otherwise, you'll get an error. This is because `rackup` is always going to try and run on the same port, and you can only have one thing running on any given port at a time.
 
 ## Simple Config.ru
-
 1. Create a directory called `hello-rack`
 2. `cd` into that directory and create a file called `config.ru`
 3. At the top of the file, add `require 'rack'` (if you haven't done so already, on your command line type `gem install rack`)
